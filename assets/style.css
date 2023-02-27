@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: dodgerblue;
+    background-image: url(../img/pattern.png);
+    padding: 50px 0px 0px 10px;
+}
+
+header>img {
+    width: 20%;
+}
+
+main {
+    margin: 20px 10px;
+}
+
+/* H1 and cite */
+
+h1 {
+    font-size: 55px;
+}
+
+.grey {
+    color: grey;
+}
+
+.grey>p:first-child {
+    font-size: 25px;
+}
+
+p>a {
+    color: deepskyblue;
+    text-decoration: none;
+}
+
+/* Img Tim Berners-Lee */
+
+figure, table {
+    margin: 20px 0px;
+}
+
+figure>img {
+    height: 500px;
+}
+
+main>p {
+    margin-bottom: 25px;
+}
+
+.bg_yellow {
+    background-color: yellow;
+}
+
+/* Table */
+
+table{
+    border-collapse: collapse;
+}
+
+td{
+    width: 400px;
+}
+
+.lorem{
+    width: auto;
+}
+
+.bg_thead {
+    background-color: deepskyblue;
+    color: white;
+    text-align: left;
+}
+
+.bg_tbody {
+    background-color: lightblue;
+}
