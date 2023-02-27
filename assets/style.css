@@ -18,7 +18,7 @@ main {
     margin: 20px 10px;
 }
 
-/* H1 and cite */
+/* h1 and div */
 
 h1 {
     font-size: 55px;
@@ -37,9 +37,9 @@ p>a {
     text-decoration: none;
 }
 
-/* Img Tim Berners-Lee */
+/* img Tim Berners-Lee */
 
-figure, table {
+figure, table, main>p {
     margin: 20px 0px;
 }
 
@@ -47,25 +47,27 @@ figure>img {
     height: 500px;
 }
 
-main>p {
-    margin-bottom: 25px;
-}
-
 .bg_yellow {
     background-color: yellow;
 }
 
-/* Table */
+/* ul */
 
-table{
+ul {
+    margin-left: 10px;
+}
+
+/* table */
+
+table {
     border-collapse: collapse;
 }
 
-td{
+td {
     width: 400px;
 }
 
-.lorem{
+.lorem {
     width: auto;
 }
 
@@ -77,4 +79,31 @@ td{
 
 .bg_tbody {
     background-color: lightblue;
+}
+
+/* aside */
+
+aside {
+    margin: 30px 10px;
+}
+
+aside>div {
+    width: 250px;
+    height: 180px;
+    padding: 15px;
+    margin-top: 10px;
+    background-size: cover;
+}
+
+.info_1 {
+    background-image: url(../img/monitor.jpg);
+}
+
+.info_2 {
+    background-image: url(../img/graph.jpg);
+}
+
+div>h3 {
+    font-size: 21px;
+    color: white;
 }
